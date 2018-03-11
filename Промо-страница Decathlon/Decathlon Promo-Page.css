@@ -1,0 +1,51 @@
+header {
+    position: relative;
+    height: 150px;
+    background-color:#0082c3;
+}
+
+.container {
+    display: flex;
+    height: 500px;
+    width: 500px;
+    padding: 30px;
+    }
+
+.logo {
+    position: absolute;
+    top: 16px;
+    left: 24px;
+    width: 325px;
+}
+
+nav {
+    width: 200px;
+    height: 300px;
+    color:#0082c3;
+}
+
+main {
+    width: 100%;
+    height: 500px;
+    margin: 0 50px;
+}
+
+aside {
+    width: 200px;
+    height: 300px;
+    margin: 0 50px;
+    background-color:#FFEA28;
+}
+
+footer {
+    height: 100px;
+    background-color:
+}
+
+@media only screen and (max-width: 450px) {
+
+.container    {
+display: block;
+background: salmon;
+   }
+}
